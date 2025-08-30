@@ -1,5 +1,4 @@
-import React from 'react'
-import CV from './cv';
+import CV from './CV'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 

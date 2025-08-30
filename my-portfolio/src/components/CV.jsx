@@ -7,7 +7,7 @@ function CV() {
 
       <a
         href={resume}
-        download="My_Resume.pdf"
+        download="resume.pdf"
         className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition duration-300"
       >
         Download CV
