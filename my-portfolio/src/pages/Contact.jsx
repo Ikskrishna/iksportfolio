@@ -1,9 +1,13 @@
 import React from 'react';
+import Back from '../components/Back'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
   return (
+    <>
+      <Back />
     <section
       id="contact"
       className="min-h-screen bg-[#1a1a1a] py-16 px-4 sm:px-8 text-white"
@@ -63,6 +67,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

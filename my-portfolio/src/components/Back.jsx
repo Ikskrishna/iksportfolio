@@ -8,11 +8,15 @@ const Back = () => {
     const navigate =useNavigate();
 
   return (
-    <div>
-      <button className="p-4" onClick={()=> navigate(-1)}>
+    <>
+    <div className="absolute mt-10 left-2">
+
+      <button className="px-2" onClick={()=> navigate(-1)}>
       <FontAwesomeIcon icon={faArrowLeft} className="text-white text-xl" />
       </button>
     </div>
+    </>
+    
   )
 }
 

@@ -1,9 +1,12 @@
 import React from 'react';
+import Back from '../components/Back'
 
 const Projects = () => {
   return (
-    <div className="min-h-screen text-[#FFE1A8] p-8">
-      <h1 className="text-4xl font-bold mb-8 text-center ">
+    <>
+      <Back />
+    <div className="min-h-screen  text-[#FFE1A8] p-8">
+      <h1 className="text-4xl mt-10 font-bold mb-8 text-center ">
         My Projects
       </h1>
 
@@ -42,6 +45,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

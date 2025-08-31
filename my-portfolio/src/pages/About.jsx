@@ -1,10 +1,11 @@
 import React from 'react';
 import Skills from '../components/Skills'
+import Back from '../components/Back'
 
 const About = () => {
   return (
     <div className=' text-[#FFE1A8] shadow-2xl bg-'>
-      
+      <Back />
       <div className='grid w-full shadow-2xl grid-cols-1 sm:grid-cols-1 md:grid-cols-3  mx-auto '>
         <div className='p-8 py-20 flex flex-col gap-5  md:col-span-2 '>
             <h1 className='text-4xl'>Know Who I'M</h1>
