@@ -18,7 +18,7 @@ const Projects = () => {
 
         {/* Description */}
         <p className="text-gray-600 mb-4">
-          This is a modern eCommerce website built with React, Tailwind CSS, and Firebase.
+          This is a modern eCommerce website built with React and Tailwind CSS.
           It features user authentication, product listings, shopping cart functionality,
           and a responsive UI. Ideal for small businesses looking to sell online.
         </p>
